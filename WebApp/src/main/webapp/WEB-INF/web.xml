@@ -1,0 +1,13 @@
+<web-app xmlns="http://xmins.jcp.org/xml/ns/javaee"
+		xmlns:xsi="http://www.w3.org.2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+		http://xlmns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+	<servlet>
+		<servlet-name>Servlet</servlet-name>
+		<servlet-class>com.revature.server.Main</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+</web-app>
